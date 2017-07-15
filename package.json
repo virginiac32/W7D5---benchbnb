@@ -7,7 +7,9 @@
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "webpack",
+    "webpack": "webpack --watch"
   },
   "keywords": [],
   "author": "",
@@ -22,6 +24,15 @@
     "react-redux": "^5.0.5",
     "react-router": "^4.1.1",
     "redux": "^3.7.2",
-    "webpack": "^3.2.0"
-  }
+    "webpack": "^2.7.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/virginiac32/W7D5---benchbnb.git"
+  },
+  "bugs": {
+    "url": "https://github.com/virginiac32/W7D5---benchbnb/issues"
+  },
+  "homepage": "https://github.com/virginiac32/W7D5---benchbnb#readme"
 }
